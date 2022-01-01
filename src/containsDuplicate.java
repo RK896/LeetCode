@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class containsDuplicate {
     public static void main(String[] args) {
-        System.out.println(containsDuplicate(new int[] {0, 1, 2, 0}));
+        System.out.println(containsDuplicate(new int[] {0, 1, 2, 0})); // can you please set these via a variable
     }
 
     public static boolean containsDuplicate(int[] nums) {
