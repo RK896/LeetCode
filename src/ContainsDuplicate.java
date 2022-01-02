@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class containsDuplicate {
+public class ContainsDuplicate {
     public static void main(String[] args) {
         int[] ints = new int[] {0, 1, 2, 0, 4, 5};
         System.out.println(containsDuplicate(ints));
