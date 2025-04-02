@@ -1,6 +1,6 @@
 from typing import List
 class Solution:
-    def twoSum_two_pointers(self, nums: List[int], target: int) -> List[int]:
+    def twoSum_two_pointers(nums, target):
         left = 0
         right = len(nums)-1
 
@@ -21,6 +21,10 @@ class Solution:
                 right-=1
         
         return [0,0]
+    
+
+    # def twoSum_hash_map (self, nums:List[int], target: int) -> List[int]:
+
 
 sol = Solution()
 print(sol.twoSum_two_pointers([2,7,11,15], 9))
